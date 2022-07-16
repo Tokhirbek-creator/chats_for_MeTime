@@ -1,1 +1,1 @@
-# chats_for_MeTime
+# Chats for MeTime project 
