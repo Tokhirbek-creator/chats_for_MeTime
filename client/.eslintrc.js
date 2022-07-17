@@ -21,5 +21,7 @@ module.exports = {
   rules: {
     'react/jsx-filename-extension': 0,
     'react/react-in-jsx-scope': 0,
+    'react/prop-types': 0,
+    'react/jsx-no-bind': 0,
   },
 };
