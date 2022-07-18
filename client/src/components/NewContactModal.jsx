@@ -16,7 +16,7 @@ export default function NewContactModal({ closeModal }) {
 
   return (
     <>
-      <Modal.Header closeButton>Создать чат</Modal.Header>
+      <Modal.Header closeButton>Создать контакт</Modal.Header>
       <Modal.Body>
         <Form onSubmit={handleSubmit}>
           <Form.Group>

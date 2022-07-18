@@ -26,5 +26,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     'react/jsx-no-constructed-context-values': 0,
     'array-callback-return': 0,
+    'import/no-cycle': 0,
+    'no-shadow': 0,
   },
 };
