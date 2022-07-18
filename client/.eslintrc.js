@@ -23,5 +23,8 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'react/prop-types': 0,
     'react/jsx-no-bind': 0,
+    'import/prefer-default-export': 0,
+    'react/jsx-no-constructed-context-values': 0,
+    'array-callback-return': 0,
   },
 };

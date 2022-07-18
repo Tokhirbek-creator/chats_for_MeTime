@@ -20,12 +20,12 @@ export default function Login({ onIdSubmit }) {
       <Form onSubmit={handleSubmit} className="w-50">
         <Form.Group>
           <Form.Label>
-            Enter Your Id
+            Введите ваш Id
           </Form.Label>
           <Form.Control type="text" placeholder="Id" ref={idRef} required />
         </Form.Group>
-        <Button type="submit" className="mr-3" style={{ marginRight: '2vh' }}>Login</Button>
-        <Button onClick={createNewId} variant="secondary" className="my-3">Create a new Id</Button>
+        <Button type="submit" className="mr-3" style={{ marginRight: '2vh' }}>Логин</Button>
+        <Button onClick={createNewId} variant="secondary" className="my-3">Создать новый Id</Button>
       </Form>
     </Container>
   );
