@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
 import { v4 as uuidV4 } from 'uuid';
 
-function Login({ onIdSubmit }) {
+export default function Login({ onIdSubmit }) {
   const idRef = useRef();
 
   function handleSubmit(e) {
@@ -30,5 +30,3 @@ function Login({ onIdSubmit }) {
     </Container>
   );
 }
-
-export default Login;
