@@ -30,5 +30,7 @@ module.exports = {
     'no-shadow': 0,
     'no-use-before-define': 0,
     'react/no-array-index-key': 0,
+    'no-unused-expressions': 0,
+    'consistent-return': 0,
   },
 };
