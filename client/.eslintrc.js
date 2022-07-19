@@ -28,5 +28,7 @@ module.exports = {
     'array-callback-return': 0,
     'import/no-cycle': 0,
     'no-shadow': 0,
+    'no-use-before-define': 0,
+    'react/no-array-index-key': 0,
   },
 };

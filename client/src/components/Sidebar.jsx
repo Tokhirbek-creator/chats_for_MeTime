@@ -43,7 +43,7 @@ export default function Sidebar({ id }) {
           {' '}
           <span className="text-muted">{ id }</span>
         </div>
-        <Button onClick={() => setModalOpen(true)} className="bg-success rounded-0">
+        <Button onClick={() => setModalOpen(true)} className="rounded-0">
           Новый
           {' '}
           {hasConversations ? 'чат' : 'контакт'}
